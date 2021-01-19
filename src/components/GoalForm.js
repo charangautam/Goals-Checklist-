@@ -2,14 +2,14 @@ import React, { useState, useContext } from 'react';
 import { GoalContext } from '../contexts/GoalContext';
 
 const GoalForm = () => {
-    const { addGoal } = useContext(GoalContext)
+    const { dispatch } = useContext(GoalContext)
 
     const [ title, setTitle ] = useState('')
     const [ date, setDate ] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        addGoal(title, date);
+        dispatch({ type: 'ADD_GOAL', title, date });
         setTitle('');
         setDate('');
     }
