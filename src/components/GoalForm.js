@@ -24,8 +24,7 @@ const GoalForm = () => {
                 required
             />
             <input 
-                type='text'
-                placeholder='Enter goal deadline date'
+                type='date'
                 onChange={ (e) => setDate(e.target.value) }
                 value={date}
                 required
