@@ -88,3 +88,14 @@ button[type='submit']{
   padding: 6px 20px;
   display: block;
 }
+
+input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #aaa;
+  margin-right: 3px;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+  content: "";
+}
+

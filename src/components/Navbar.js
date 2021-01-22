@@ -6,8 +6,8 @@ const Navbar = () => {
 
     return(
         <div className='navbar'>
-            <h1> Goals List</h1>
-            <p>You currently have { goals.length } goals to conquer, get em done!</p>
+            <h1>✨ Goals CheckList ✨</h1>
+            <p>You currently have { goals.length } goals to conquer!</p>
 
         </div>
     )
