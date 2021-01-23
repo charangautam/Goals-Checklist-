@@ -81,13 +81,6 @@ input[type='text'], input[type='date']{
   color: #fff;
   border: 0;
 }
-button[type='submit']{
-  margin: 10px auto;
-  background: #eee;
-  border: 0;
-  padding: 6px 20px;
-  display: block;
-}
 
 input[type="date"]:before {
   content: attr(placeholder) !important;
@@ -98,4 +91,23 @@ input[type="date"]:focus:before,
 input[type="date"]:valid:before {
   content: "";
 }
+
+button[type='submit']{
+  margin: 20px auto;
+  background-color: #071a52;
+  border-radius: 20px;
+  padding: 6px 20px;
+  display: block;
+  width: 20%;
+  color: #eee;
+  font-family: 'Courier New', monospace;
+  font-size: 17px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+button[type='submit']:hover{
+  background-color: #424874;
+}
+
+
 

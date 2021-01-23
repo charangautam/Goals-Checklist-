@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { GoalContext } from '../contexts/GoalContext';
 
+
 const GoalForm = () => {
     const { dispatch } = useContext(GoalContext)
 
@@ -31,6 +32,7 @@ const GoalForm = () => {
                 required
             />
             <button type='submit'> ADD </button>
+           
         </form>
     )
 }
