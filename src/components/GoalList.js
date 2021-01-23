@@ -19,7 +19,7 @@ const GoalList = () => {
             </ul>
         </div>
     ) : (
-        <div className='empty'> No goals set. Add some! </div> 
+        <div className='empty'> No goals set, add some! </div> 
     )
 }
 
