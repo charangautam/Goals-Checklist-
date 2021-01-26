@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { GoalContext } from '../contexts/GoalContext';
+import { GoalContext } from '../../contexts/GoalContext';
 
 
 const GoalForm = () => {

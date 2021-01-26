@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { GoalContext } from '../contexts/GoalContext';
+import { GoalContext } from '../../contexts/GoalContext';
 import GoalDetails from './GoalDetails';
 
 const GoalList = () => {
