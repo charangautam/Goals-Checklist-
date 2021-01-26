@@ -21,4 +21,4 @@ const GoalContextProvider = (props) => {
     )
 }
 
-export default GoalContextProvider;
+export default GoalContextProvider; 
