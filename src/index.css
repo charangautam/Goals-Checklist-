@@ -1,113 +1,14 @@
 body {
-  margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #553055;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.App {
-  background: #4c2a4c;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 700px;
-  color: #eee;
-}
-
-.navbar{
-  padding: 10px 20px;
-  text-align: center;
-  background: #6d3d6d;
-}
-
-.navbar h1{
-  margin: 10px 0;
-}
-
-.goal-list{
-  margin: 20px;
-}
-
-.goal-list ul{
-  padding: 0;
-  list-style-type: none;
-}
-
-.goal-list li{
-  background: #6d3d6d;
-  border-radius: 4px;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px 0;
-}
-
-.goal-list li:hover{
-  opacity: 0.7;
-  text-decoration: line-through;
-}
-
-.goal-list .title{
-  font-weight: bold;
-  color: #fff;
-  font-size: 1.2em;
-}
-
-.goal-list .date{
-  font-size: 0.7em;
-  color: #ddd;
-}
-
-.empty{
-  margin: 20px;
-  text-align: center;
-  font-size: 17px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-form{
-  padding: 20px;
-}
-input[type='text'], input[type='date']{
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  margin: 6px 0;
-  background: #3c1f3c;
-  color: #fff;
-  border: 0;
-}
-
-input[type="date"]:before {
-  content: attr(placeholder) !important;
-  color: #aaa;
-  margin-right: 3px;
-}
-input[type="date"]:focus:before,
-input[type="date"]:valid:before {
-  content: "";
-}
-
-button[type='submit']{
-  margin: 20px auto;
-  background-color: #071a52;
-  border-radius: 20px;
-  padding: 6px 20px;
-  display: block;
-  width: 20%;
-  color: #eee;
-  font-family: 'Courier New', monospace;
-  font-size: 17px;
-  font-weight: bolder;
-  letter-spacing: 3px;
-}
-button[type='submit']:hover{
-  background-color: #424874;
-}
-
-
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
 

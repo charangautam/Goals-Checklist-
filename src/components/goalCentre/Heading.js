@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { GoalContext } from '../../contexts/GoalContext';
 
-const Navbar = () => {
+const Heading = () => {
     const { goals } = useContext(GoalContext);
 
     return(
-        <div className='navbar'>
+        <div className='heading'>
             <h1>✨ Goals Checklist ✨</h1>
             <p>You currently have { goals.length } goals to conquer!</p>
 
@@ -13,4 +13,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Heading;

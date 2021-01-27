@@ -1,18 +1,22 @@
 import React from 'react';
 import GoalContextProvider from '../../contexts/GoalContext';
-import Navbar from './Navbar';
+import Heading from './Heading';
 import GoalList from './GoalList';
 import GoalForm from './GoalForm';
+import './css/goals.css';
 
 
-const GoalsCentre = () => {
+const GoalCentre = () => {
     return(
+        <div className='goal-centre'>
         <GoalContextProvider>
-            <Navbar />
+            <Heading />
             <GoalList />
             <GoalForm />
         </GoalContextProvider>
+        </div>
+        
     )
 }
 
-export default GoalsCentre;
+export default GoalCentre;
