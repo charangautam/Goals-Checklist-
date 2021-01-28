@@ -1,6 +1,7 @@
 import React from 'react';
 import FocusContextProvider from '../../contexts/FocusContext';
 import Pomodoro from './Pomodoro'
+import './css/Focus.css'
 
 const FocusCentre = () => {
     return(

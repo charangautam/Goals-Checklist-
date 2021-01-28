@@ -1,0 +1,41 @@
+.pomodoro {
+    background: #4c2a4c;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    color: #eee;
+    border: ridge 2px;
+    border-radius: 20px;
+    padding: 0 2% 1%;
+  }
+
+.pomodoro h1{
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 2px;
+}
+
+.pomodoro p{
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.6rem;
+}
+
+.pomodoro hr{
+    /* work on this */
+    line-height: 10px;
+}
+
+
+.pomodoro h2{
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 2px;
+}
+
+.pomodoro li{
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.7rem;
+}
+
+

@@ -1,16 +1,19 @@
 
-body {
+.goal-centre {
   background: #4c2a4c;
   margin: 20px auto;
   width: 90%;
   max-width: 700px;
   color: #eee;
+  border: ridge 2px;
+  border-radius: 20px;
 }
 
 .heading{
   padding: 10px 20px;
   text-align: center;
   background: #6d3d6d;
+  border-radius: 20px;
 }
   
 .heading h1{
@@ -82,7 +85,7 @@ input[type="date"]:valid:before {
 
 button[type='submit']{
   margin: 20px auto;
-  background-color: #071a52;
+  background-color: #222831;
   border-radius: 20px;
   padding: 6px 20px;
   display: block;
