@@ -31,14 +31,14 @@
 }
 
 .goal-centre-link {
-    background-color: #c24914;
+    background-color: #d08752;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 24%;
+    margin: 4% 27%;
 }
 
 .goal-centre-link h3{
@@ -60,4 +60,34 @@
     font-size: 50px;
 }
 
+.focus-centre-link {
+    background-color: #fffaa4;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 60%;
+    position: absolute;
+    top: 52%;
+}
 
+.focus-centre-link h3{
+    position: relative;
+    bottom: 10%;
+    left: 14px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.focus-centre-link h2{
+    position: relative;
+    top: 10%;
+    right: 22%;
+    font-size: 50px;
+}

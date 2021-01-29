@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Home.css';
 import GoalCentreLink from './GoalCentreLink';
+import FocusCentreLink from './FocusCentreLink';
 
 const Home = () => {
     return(
@@ -11,6 +12,7 @@ const Home = () => {
             </div>
             <h2>Here are some of the tools available today</h2>
             <GoalCentreLink />
+            <FocusCentreLink />
         </div>
     )
 }
