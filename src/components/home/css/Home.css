@@ -30,6 +30,21 @@
     letter-spacing: 2px;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-container .first{
+    margin-left: 24%;
+    margin-right: 10%;
+    margin-top: 14px;
+}
+
+.flex-container .second{
+    margin-top: 60px;
+}
+
+
 .goal-centre-link {
     background-color: #d08752;
     border-radius: 50%;
@@ -46,11 +61,12 @@
     bottom: 10%;
     left: 14px;
     margin: 0 auto;
-    font-size: 26px;
+    font-size: 22px;
     color: #000000;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Carter One', cursive;
     font-weight: bolder;
     text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .goal-centre-link h2{
@@ -69,8 +85,6 @@
     align-items: center;
     justify-content: center;
     margin: 0 60%;
-    position: absolute;
-    top: 52%;
 }
 
 .focus-centre-link h3{
@@ -78,11 +92,12 @@
     bottom: 10%;
     left: 14px;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 21px;
     color: #000000;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Carter One', cursive;
     font-weight: bolder;
     text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .focus-centre-link h2{
