@@ -16,6 +16,7 @@ const Pomodoro = () => {
                 <li>If you have fewer than four checkmarks, take a short break (5 minutes) and then return to step 2; otherwise continue to step 6.</li>
                 <li>After four pomodoros, take a longer break (20–30 minutes), reset your checkmark count to zero, then go back to step 1.</li>
             </ul>
+            
         </div>
     )
 }

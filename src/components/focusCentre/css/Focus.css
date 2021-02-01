@@ -22,8 +22,20 @@
 }
 
 .pomodoro hr{
-    /* work on this */
-    line-height: 10px;
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 24px; 
+}
+.pomodoro hr:before{
+    display: block; 
+    height: 10px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
 }
 
 
